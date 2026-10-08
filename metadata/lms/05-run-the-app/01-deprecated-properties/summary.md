@@ -1,0 +1,1 @@
+In this lesson you learned about the Spring Boot Properties Migrator, which scans your code for properties that have changed between Spring Boot versions, and gives you instructions about how to update them. You also learned how to find and fix tricky class format errors.

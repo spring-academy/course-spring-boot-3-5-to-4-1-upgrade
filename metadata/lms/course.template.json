@@ -1,0 +1,20 @@
+{
+  "id": "spring-boot-3-5-to-4-1-upgrade",
+  "slug": "spring-boot-3-5-to-4-1-upgrade",
+  "title": "Upgrading from Spring Boot 3.5 to 4.1",
+  "status": "live",
+  "order": 700,
+  "level": "intermediate",
+  "topics": ["java", "testing", "intermediate", "modernization", "upgrade"],
+  "entitlements": ["pro"],
+  "instructors": ["spring-jonathan-newell", "spring-dan-frey"],
+  "settings": {
+    "thumbnail": "https://raw.githubusercontent.com/spring-academy/spring-academy-assets/main/courses/course-spring-boot-3-5-to-4-1-upgrade/course-thumbnail-large.svg",
+    "pro": true,
+    "debug.version": "${GITHUB_REF_NAME}",
+    "debug.commit": "${GITHUB_SHA}",
+    "debug.updated": "${DEBUG_DATE}",
+    "debug.who": "${GITHUB_ACTOR}",
+    "debug.github-workflow": "${GITHUB_WORKFLOW}"
+  }
+}

@@ -1,0 +1,8 @@
+name: Known Good State
+modules:
+  activate:
+    - 00-overview
+    - 01-assess
+    - 02-fix-skipped
+    - 03-baseline
+    - 99-summary

@@ -1,0 +1,10 @@
+modules:
+  00-overview:
+    name: "Overview"
+    exit_sign: "Continue"
+  01-the-rename:
+    name: "Rename the Web and Test Starters"
+    exit_sign: Continue
+  99-summary:
+    name: "Summary"
+    exit_sign: "Finish"

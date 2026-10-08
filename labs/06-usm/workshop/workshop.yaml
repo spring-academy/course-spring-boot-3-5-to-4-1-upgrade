@@ -1,0 +1,6 @@
+name: Update Spring Boot Starter Names
+modules:
+  activate:
+    - 00-overview
+    - 01-the-rename
+    - 99-summary

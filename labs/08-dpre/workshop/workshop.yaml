@@ -1,0 +1,12 @@
+name: "Deprecated Properties and Runtime Errors"
+modules:
+  activate:
+    - 00-overview
+    - 01-small-change
+    - 02-compile
+    - 03-assess
+    - 04-react
+    - 05-cleanup
+    - 99-summary
+
+

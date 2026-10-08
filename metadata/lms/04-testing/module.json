@@ -1,0 +1,10 @@
+{
+  "id": "spring-boot-3-5-to-4-1-upgrade-testing",
+  "slug": "spring-boot-3-5-to-4-1-upgrade-testing",
+  "title": "Test for success",
+  "status": "live",
+  "duration": 60,
+  "settings": {
+    "manualCompletion": true
+  }
+}

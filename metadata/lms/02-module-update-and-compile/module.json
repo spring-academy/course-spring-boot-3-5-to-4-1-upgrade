@@ -1,0 +1,10 @@
+{
+  "id": "spring-boot-3-5-to-4-1-upgrade-update-and-compile",
+  "slug": "spring-boot-3-5-to-4-1-upgrade-update-and-compile",
+  "title": "Update and compile",
+  "status": "live",
+  "duration": 60,
+  "settings": {
+    "manualCompletion": true
+  }
+}

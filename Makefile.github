@@ -1,0 +1,10 @@
+DIR_LAB               = lab
+NAME                  = spring-boot-3-5-to-4-1-upgrade
+IMAGE_SOURCE          = https://github.com/spring-academy/course-spring-boot-3-5-to-4-1-upgrade
+CONTAINER_REGISTRY    = ghcr.io/spring-academy/
+CONTAINER_REPOSITORY  = course-spring-boot-3-5-to-4-1-upgrade
+CODE_REPO             = https://github.com/spring-academy/course-spring-boot-3-5-to-4-1-upgrade-code.git
+CODE_REPO_BRANCH      = main
+version               = latest
+
+env                   = local

@@ -1,0 +1,1 @@
+In this lesson, you learned that Spring Security requires special attention, and its own focused upgrade process. Spring and Spring Security provide dedicated documentation for upgrading Spring Security. As a best practice, you should review this documentation before diving into a Spring Security upgrade.

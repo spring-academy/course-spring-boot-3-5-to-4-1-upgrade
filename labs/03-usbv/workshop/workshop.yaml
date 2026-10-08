@@ -1,0 +1,8 @@
+name: Update the Spring Boot Version
+modules:
+  activate:
+    - 00-overview
+    - 01-small-change
+    - 02-compile-and-assess
+    - 03-react
+    - 99-summary

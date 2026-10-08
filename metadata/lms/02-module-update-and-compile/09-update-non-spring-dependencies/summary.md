@@ -1,0 +1,3 @@
+In this lesson you learned the various ways you can find and remove explicit versions of non-Spring dependencies, letting Spring and other transitive dependencies manage them instead. In addition, you learned that if you do have to explicitly manage certain dependency versions, that you should configure them all in one place: the pom's `<properties>` section, rather than scattering version numbers haphazardly across your pom files. This makes finding explicit versions simple. You only have the one place to look.
+
+Next, you'll use these techniques to update our sample project's non-Spring dependencies in the lab!

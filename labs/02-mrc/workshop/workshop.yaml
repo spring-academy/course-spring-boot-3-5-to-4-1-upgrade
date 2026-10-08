@@ -1,0 +1,7 @@
+name: "Major Release Considerations"
+modules:
+  activate:
+    - 00-overview
+    - 01-the-deprecation
+    - 02-the-fix
+    - 99-summary

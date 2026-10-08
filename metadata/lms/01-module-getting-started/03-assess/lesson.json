@@ -1,0 +1,17 @@
+{
+  "id": "spring-boot-3-5-to-4-1-upgrade-getting-started-assess",
+  "slug": "spring-boot-3-5-to-4-1-upgrade-getting-started-assess",
+  "title": "Assess",
+  "status": "live",
+  "type": "article",
+  "duration": 300,
+  "settings": {
+    "manualCompletion": true,
+    "links": [
+      {
+        "text": "Logging in Spring",
+        "url": "https://docs.spring.io/spring-boot/docs/3.5.16/reference/html/howto.html#howto.logging"
+      }
+    ]
+  }
+}

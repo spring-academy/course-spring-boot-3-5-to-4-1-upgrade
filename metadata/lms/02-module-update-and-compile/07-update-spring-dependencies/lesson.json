@@ -1,0 +1,11 @@
+{
+  "id": "spring-boot-3-5-to-4-1-upgrade-update-and-compile-spring-dependencies",
+  "slug": "spring-boot-3-5-to-4-1-upgrade-update-and-compile-spring-dependencies",
+  "title": "Update Spring and Spring Boot dependencies",
+  "status": "live",
+  "type": "article",
+  "duration": 300,
+  "settings": {
+    "manualCompletion": true
+  }
+}

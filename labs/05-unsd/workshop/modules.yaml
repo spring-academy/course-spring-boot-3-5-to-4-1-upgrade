@@ -1,0 +1,28 @@
+modules:
+  00-overview:
+    name: "Overview"
+    exit_sign: Continue
+  01-small-change:
+    name: "Update Non-Spring dependencies"
+    exit_sign: Continue
+  02-compile-and-assess:
+    name: "Compile and Assess"
+    exit_sign: Continue
+  03-react:
+    name: "React to this change in the upgrade notes"
+    exit_sign: Continue
+  04-small-change-2:
+    name: "Make another Small Change"
+    exit_sign: Continue
+  05-maven-properties:
+    name: "Using Maven Properties"
+    exit_sign: Continue
+  06-assess-2:
+    name: "Assess the property change"
+    exit_sign: Continue
+  07-react-2:
+    name: "React to the property change"
+    exit_sign: Continue
+  99-summary:
+    name: "Summary"
+    exit_sign: Finish

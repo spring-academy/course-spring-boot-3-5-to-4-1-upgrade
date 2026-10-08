@@ -1,0 +1,13 @@
+modules:
+  00-overview:
+    name: "Overview"
+    exit_sign: "Continue"
+  01-the-deprecation:
+    name: "Spot the deprecation"
+    exit_sign: Continue
+  02-the-fix:
+    name: "Update Request Matchers"
+    exit_sign: Continue
+  99-summary:
+    name: "Summary"
+    exit_sign: "Finish"

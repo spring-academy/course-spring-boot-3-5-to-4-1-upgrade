@@ -1,0 +1,22 @@
+modules:
+  00-overview:
+    name: Overview
+    exit_sign: Continue
+  01-small-change:
+    name: "Adding the Spring Boot Property Migrator"
+    exit_sign: Continue
+  02-compile:
+    name: "Compile the code"
+    exit_sign: Continue
+  03-assess:
+    name: "Assess the results"
+    exit_sign: Continue
+  04-react:
+    name: "React to the error output"
+    exit_sign: Continue
+  05-cleanup:
+    name: "Clean up the Developer Tools"
+    exit_sign: Continue
+  99-summary:
+    name: Summary
+    exit_sign: Finish

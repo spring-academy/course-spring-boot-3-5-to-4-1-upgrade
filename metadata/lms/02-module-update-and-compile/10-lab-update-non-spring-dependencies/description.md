@@ -1,0 +1,1 @@
+Update the non-Spring dependencies in our sample project.

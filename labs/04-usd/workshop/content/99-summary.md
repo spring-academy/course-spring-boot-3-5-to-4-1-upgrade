@@ -1,0 +1,1 @@
+In this lab you learned how to find and remove a hard-coded Spring dependency version, allowing Spring Boot to manage and keep it up to date for us. Nice! Keep an eye on `spring-data-jdbc`, though -- we're not quite done with it yet.

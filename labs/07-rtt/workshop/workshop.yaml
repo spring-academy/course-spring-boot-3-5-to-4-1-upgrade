@@ -1,0 +1,11 @@
+name: Run the Tests
+modules:
+  activate:
+    - 00-overview
+    - 01-run-the-tests
+    - 02-small-change
+    - 03-react
+    - 04-small-change-2
+    - 05-compile-and-assess-2
+    - 06-react-2
+    - 99-summary

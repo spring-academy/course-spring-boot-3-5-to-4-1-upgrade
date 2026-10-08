@@ -1,0 +1,10 @@
+{
+  "id": "spring-boot-3-5-to-4-1-upgrade-spring-security",
+  "slug": "spring-boot-3-5-to-4-1-upgrade-spring-security",
+  "title": "Modularized Starters",
+  "status": "live",
+  "duration": 60,
+  "settings": {
+    "manualCompletion": true
+  }
+}

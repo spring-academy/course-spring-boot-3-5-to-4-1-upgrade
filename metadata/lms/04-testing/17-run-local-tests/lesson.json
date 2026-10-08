@@ -1,0 +1,11 @@
+{
+  "id": "spring-boot-3-5-to-4-1-upgrade-testing-run-local-tests",
+  "slug": "spring-boot-3-5-to-4-1-upgrade-testing-run-local-tests",
+  "title": "Run local tests",
+  "status": "live",
+  "type": "article",
+  "duration": 300,
+  "settings": {
+    "manualCompletion": true
+  }
+}

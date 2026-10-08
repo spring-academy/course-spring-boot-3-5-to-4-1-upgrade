@@ -1,0 +1,3 @@
+In this lab you took the first concrete step to upgrading our Spring Boot application from version 3.5 to 4.1: bumping the `spring-boot-starter-parent` version. Unlike the deprecation you fixed ahead of time in the last lab, this one-line change surfaced a real compile error — `ConfigurableBootstrapContext` and `DefaultBootstrapContext` had moved packages as part of Spring Boot 4's modularization.
+
+That's the **SCAR** method doing exactly what it's meant to do: a small, isolated change made the break easy to spot and easy to fix. Your code compiles cleanly again — though remember, we haven't run the tests yet, so we're not declaring victory just yet. That comes later in the course.

@@ -1,0 +1,1 @@
+In this lab you'll examine the maven pom file and look for any Spring/Spring Boot dependencies that have explicit versioning. The objective is to remove explicit versioning, allowing the Spring Boot Dependencies BOM to control the version, ensuring the interoperability of the framework libraries.

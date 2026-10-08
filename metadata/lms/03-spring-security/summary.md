@@ -1,0 +1,1 @@
+This module focuses on Spring Boot 4's modularized starter names. Your application is compiling, and now's a good time to make sure your dependency coordinates match what a fresh Spring Initializr project would generate today.

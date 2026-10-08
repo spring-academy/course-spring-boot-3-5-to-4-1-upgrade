@@ -1,0 +1,1 @@
+Congrats! In this lesson you started your hands-on learning journey and learned about establishing a `Known Good State` and documenting a baseline before beginning to upgrade your Spring Boot application.

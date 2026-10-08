@@ -1,0 +1,11 @@
+{
+  "id": "spring-boot-3-5-to-4-1-upgrade-update-and-compile-non-spring-dependencies",
+  "slug": "spring-boot-3-5-to-4-1-upgrade-update-and-compile-non-spring-dependencies",
+  "title": "Update non-Spring dependencies",
+  "status": "live",
+  "type": "article",
+  "duration": 420,
+  "settings": {
+    "manualCompletion": true
+  }
+}

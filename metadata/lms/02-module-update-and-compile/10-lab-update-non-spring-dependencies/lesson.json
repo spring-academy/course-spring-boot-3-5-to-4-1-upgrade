@@ -1,0 +1,12 @@
+{
+  "id": "spring-boot-3-5-to-4-1-upgrade-update-and-compile-update-non-spring-dependencies-lab",
+  "slug": "spring-boot-3-5-to-4-1-upgrade-update-and-compile-update-non-spring-dependencies-lab",
+  "title": "Lab: Update the Non-Spring Dependencies",
+  "status": "live",
+  "type": "lab",
+  "duration": 600,
+  "settings": {
+    "manualCompletion": true,
+    "educates": "spr-upgrade-35-41-05-unsd"
+  }
+}

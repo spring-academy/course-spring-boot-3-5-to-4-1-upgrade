@@ -1,0 +1,12 @@
+{
+  "id": "spring-boot-3-5-to-4-1-upgrade-getting-started-mrc-lab",
+  "slug": "spring-boot-3-5-to-4-1-upgrade-getting-started-mrc-lab",
+  "title": "Lab: Major Release Considerations",
+  "status": "live",
+  "type": "lab",
+  "duration": 900,
+  "settings": {
+    "manualCompletion": true,
+    "educates": "spr-upgrade-35-41-02-mrc"
+  }
+}

@@ -1,0 +1,1 @@
+Keep your Spring and Spring Boot dependencies in sync.

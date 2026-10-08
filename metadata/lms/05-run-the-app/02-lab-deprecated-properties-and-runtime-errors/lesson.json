@@ -1,0 +1,12 @@
+{
+  "id": "spring-boot-3-5-to-4-1-upgrade-run-the-app-deprecated-properties-and-runtime-errors-lab",
+  "slug": "spring-boot-3-5-to-4-1-upgrade-run-the-app-deprecated-properties-and-runtime-errors-lab",
+  "title": "Lab: Deprecated Properties & Runtime Errors",
+  "status": "live",
+  "type": "lab",
+  "duration": 300,
+  "settings": {
+    "manualCompletion": true,
+    "educates": "spr-upgrade-35-41-08-dpre"
+  }
+}

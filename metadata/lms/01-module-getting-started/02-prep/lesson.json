@@ -1,0 +1,30 @@
+{
+  "id": "spring-boot-3-5-to-4-1-upgrade-getting-started-prep",
+  "slug": "spring-boot-3-5-to-4-1-upgrade-getting-started-prep",
+  "title": "Preparing to upgrade",
+  "status": "live",
+  "type": "article",
+  "entitlements": ["auth"],
+  "duration": 900,
+  "settings": {
+    "manualCompletion": true,
+    "links": [
+      {
+        "text": "Spring Boot 4.0 Migration",
+        "url": "https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-4.0-Migration-Guide"
+      },
+      {
+        "text": "Spring Boot 4.0 Release Notes",
+        "url": "https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-4.0-Release-Notes"
+      },
+      {
+        "text": "Spring Boot 4.1 Release Notes",
+        "url": "https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-4.1-Release-Notes"
+      },
+      {
+        "text": "Spring Boot Supported Versions and End-of-Life Schedule",
+        "url": "https://spring.io/projects/spring-boot#support"
+      }
+    ]
+  }
+}

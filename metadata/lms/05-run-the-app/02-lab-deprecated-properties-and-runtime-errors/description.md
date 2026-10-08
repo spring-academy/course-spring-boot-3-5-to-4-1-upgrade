@@ -1,0 +1,1 @@
+Let the Spring Boot Property Migrator show you the way to property-fix bliss.

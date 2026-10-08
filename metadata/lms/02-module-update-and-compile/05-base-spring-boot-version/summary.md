@@ -1,0 +1,1 @@
+In this lesson you learned the first thing that should be upgraded is the Spring Boot Starter Parent, and how to do this - even if you have a non-standard Maven POM. You were also introduced to the SCAR process we'll use throughout any upgrade: Small change – Compile – Assess – React, then repeat.

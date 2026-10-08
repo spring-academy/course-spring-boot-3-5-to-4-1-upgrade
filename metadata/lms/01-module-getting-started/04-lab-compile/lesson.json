@@ -1,0 +1,12 @@
+{
+  "id": "spring-boot-3-5-to-4-1-upgrade-getting-started-compile-lab",
+  "slug": "spring-boot-3-5-to-4-1-upgrade-getting-started-compile-lab",
+  "title": "Lab: Compile the Application",
+  "status": "live",
+  "type": "lab",
+  "duration": 600,
+  "settings": {
+    "manualCompletion": true,
+    "educates": "spr-upgrade-35-41-01-kgs"
+  }
+}

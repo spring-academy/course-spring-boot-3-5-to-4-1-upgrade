@@ -1,0 +1,1 @@
+Upgrading the base Spring Boot version is the first change you'll make in any upgrade.

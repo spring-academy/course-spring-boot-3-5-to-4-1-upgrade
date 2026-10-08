@@ -1,0 +1,112 @@
+apiVersion: training.educates.dev/v1beta1
+kind: Workshop
+metadata:
+  name: spr-upgrade-35-41-04-usd
+spec:
+  title: "Lab: Update the Spring/Spring Boot Dependencies"
+  description: "Update the Spring and Spring Boot framework and library dependencies"
+  workshop:
+    image: jdk17-environment:*
+    files:
+      - http:
+          # the name of the tar.gz here should make the workshop name
+          url: "$(ingress_protocol)://$(assets_repository)/$(workshop_name).tar.gz"
+      - path: .local/share/code-server
+        image:
+          url: ghcr.io/spring-academy/vscode-java-tools-$(platform_arch)-files:0.31.1
+  request:
+    parameters:
+    - name: USER_DOMAIN
+      value: "unknown.domain"
+    - name: USER_EMAIL
+      value: "somebody@unknown.domain"
+  session:
+    env:
+      - name: WEBSERVER
+        value: "$(ingress_protocol)://$(assets_repository)"
+      - name: LESSON_LABEL
+        value: u41-04-usd-start
+    namespaces:
+      budget: medium
+    resources:
+      memory: 2Gi
+    applications:
+      terminal:
+        enabled: true
+        layout: default
+      editor:
+        enabled: true
+    dashboards:
+      - name: Editor
+      - name: Terminal
+    volumes:
+      - name: workshop-setup-scripts
+        secret:
+          secretName: workshop-setup-scripts
+          defaultMode: 0755
+    volumeMounts:
+      - name: workshop-setup-scripts
+        mountPath: /opt/packages/00-workshop-setup-scripts/setup.d
+  environment:
+    assets:
+      memory: 0Mi
+      ingress:
+        enabled: true
+      files:
+        - image:
+            url: ${CONTAINER_REGISTRY}${CONTAINER_REPOSITORY}:${VERSION}
+          newRootPath: usr/share/nginx/html
+    objects:
+      - apiVersion: v1
+        kind: Secret
+        metadata:
+          name: workshop-setup-scripts
+        stringData:
+          00-setup.sh: |
+            #!/bin/bash
+            # This is run at session creation
+
+            # if the exercises directory exists, then lab has already been initialized
+            [ -d "$HOME/exercises" ] && exit 0
+
+            curl -L ${WEBSERVER}/exercises.tar.gz | tar -xvz -C ${HOME}
+
+            # Stage the codebase
+            # This script is used to checkout the codebase to the commit that corresponds to the lesson label from the commit message.
+
+            # Note this file is meant to generalize the staging of the codebase via a provided LESSON_LABEL environment variable.
+            # there are no explicit parameters for this script to maximize the decoupling of the lesson content from the staging script.
+
+            # Env vars:
+            # LESSON_LABEL: Label to search for in commits. Must be surrounded by <> in the commit message to match
+            # LESSON_REPO_DIR: Location of the codebase repo, if not in ~/exercises
+
+            get_sha_for_lesson_label() {
+              git log --format=format:%H --grep "<$LESSON_LABEL>"
+            }
+
+            checkout_to_label() {
+              lesson_sha=$(get_sha_for_lesson_label)
+              if [[ -z "$lesson_sha" ]]; then
+                echo "LESSON_LABEL '$LESSON_LABEL' has no matching commit for this workshop."
+              else
+                echo "Checking out from git. Label (Git commit containing text): <$LESSON_LABEL>, SHA: $lesson_sha"
+                git checkout $lesson_sha
+              fi
+            }
+
+            # Make sure we are in the root of the repo
+            LESSON_REPO_DIR="${LESSON_REPO_DIR:-$HOME/exercises}"
+
+            if [[ ! -d "$LESSON_REPO_DIR" ]]; then
+              echo "No codebase at $LESSON_REPO_DIR. Exiting without error."
+              exit 0
+            fi
+
+            if [[ -z "$LESSON_LABEL" ]]; then
+              echo "No lesson label provided. Exiting without error."
+              exit 0
+            fi
+
+            cd "$LESSON_REPO_DIR"
+            checkout_to_label

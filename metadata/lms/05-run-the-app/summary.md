@@ -1,0 +1,1 @@
+Now that the upgraded application actually *runs*, it's time to validate that it runs *correctly*, and at least as *performantly* as it did before the upgrade.

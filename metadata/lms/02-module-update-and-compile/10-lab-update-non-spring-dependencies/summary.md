@@ -1,0 +1,1 @@
+In this lab, you'll review the maven pom file, looking for any non-spring dependencies that have explicit versions specified. You'll assess whether this is appropriate, and clean up your pom file, following best practices.

@@ -1,0 +1,1 @@
+Learn what to look for and how to prepare your code when performing an upgrade that crosses a `major` release boundary.

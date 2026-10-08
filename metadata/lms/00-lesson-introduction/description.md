@@ -1,0 +1,1 @@
+What is the general approach you should take to a Spring Boot 3.5 to 4.1 upgrade?

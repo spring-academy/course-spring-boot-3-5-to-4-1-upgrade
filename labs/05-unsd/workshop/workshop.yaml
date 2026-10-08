@@ -1,0 +1,12 @@
+name: Update Non-Spring Dependencies
+modules:
+  activate:
+    - 00-overview
+    - 01-small-change
+    - 02-compile-and-assess
+    - 03-react
+    - 04-small-change-2
+    - 05-maven-properties
+    - 06-assess-2
+    - 07-react-2
+    - 99-summary

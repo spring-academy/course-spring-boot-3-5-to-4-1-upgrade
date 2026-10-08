@@ -1,0 +1,16 @@
+modules:
+  00-overview:
+    name: "Overview"
+    exit_sign: Continue
+  01-small-change:
+    name: "Update Spring/Spring Boot dependencies"
+    exit_sign: Continue
+  02-compile-and-assess:
+    name: "Compile and Assess"
+    exit_sign: Continue
+  03-react:
+    name: "React to the updated version"
+    exit_sign: Continue
+  99-summary:
+    name: "Summary"
+    exit_sign: Finish
