@@ -148,8 +148,7 @@ Or, you could manually hunt around your POM hierarchy looking for the dependency
 
 @@@alert
 {
-"text": "#### Key Takeaway \n
-"The recommended practice for dependency versions is to allow versions to be controlled by the highest POM in the hierarchy possible, or, transitively via the most precedent (highest physically) dependency in your project POM. As a reminder, if a version must be explicitly specified, a property should be used instead of hard-coding the version within the dependency.",
+"text": "#### Key Takeaway \n The recommended practice for dependency versions is to allow versions to be controlled by the highest POM in the hierarchy possible, or, transitively via the most precedent (highest physically) dependency in your project POM. As a reminder, if a version must be explicitly specified, a property should be used instead of hard-coding the version within the dependency.",
 "type": "info"
 }
 @@@

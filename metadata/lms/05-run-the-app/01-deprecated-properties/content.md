@@ -11,8 +11,7 @@ In this lesson we'll learn how to use this utility to help us find and remediate
 
 @@@alert
 {
-"text": "#### Note \n
-During \"Assess\" we modified the logging subsystem to use `INFO` logging. During this phase, you may need to adjust your logging to `DEBUG` in order to get the necessary information to make informed reactions.",
+"text": "#### Note \n During \"Assess\" we modified the logging subsystem to use `INFO` logging. During this phase, you may need to adjust your logging to `DEBUG` in order to get the necessary information to make informed reactions.",
 "type": "info"
 }
 @@@

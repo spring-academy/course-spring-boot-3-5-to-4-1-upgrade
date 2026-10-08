@@ -24,8 +24,7 @@ Remember to make changes one at a time, compiling in-between. Follow the **SCAR*
 
 @@@alert
 {
-"text": "#### Something to keep in mind \n
-We renamed the *test* starter here, but we haven't run the tests yet in this course - we've deliberately been skipping test execution to keep our feedback loop tight. Keep this rename in the back of your mind; it'll matter very soon.",
+"text": "#### Something to keep in mind \n We renamed the *test* starter here, but we haven't run the tests yet in this course - we've deliberately been skipping test execution to keep our feedback loop tight. Keep this rename in the back of your mind; it'll matter very soon.",
 "type": "info"
 }
 @@@

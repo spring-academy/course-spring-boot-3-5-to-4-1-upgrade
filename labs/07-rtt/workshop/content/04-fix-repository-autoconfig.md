@@ -28,7 +28,7 @@ after: 1
 </dependency>
 ```
 
-This is the raw `spring-data-jdbc` artifact — not a Spring Boot *starter*. We've been carrying it since the very first lab of this course (`01-kgs`), and it has compiled cleanly through every single change we've made since, including all of the dependency cleanup we did earlier in this course. A clean compile the whole way through gave us no reason to suspect anything was wrong with it.
+This is the raw `spring-data-jdbc` artifact — not a Spring Boot *starter*. We've been carrying it since the very first lab of this course, and it has compiled cleanly through every single change we've made since, including all of the dependency cleanup we did earlier in this course. A clean compile the whole way through gave us no reason to suspect anything was wrong with it.
 
 Here's the catch: compiling only proves the *types* are on the classpath. It says nothing about *auto-configuration* — the machinery Spring Boot uses to automatically wire up beans like our repository implementation. In Spring Boot 3.x, the raw `spring-data-jdbc` artifact happened to bring that auto-configuration along for the ride. In Spring Boot 4, auto-configuration has been further modularized, and Spring Data JDBC's repository auto-configuration now lives specifically behind the `spring-boot-starter-data-jdbc` starter — not behind the raw `spring-data-jdbc` artifact we've been using all along.
 
@@ -41,6 +41,13 @@ This is worth calling out explicitly, because it's easy to miss: **a clean compi
 ## Make the fix
 
 Swap the raw artifact for the Spring Boot starter:
+
+   ```editor:select-matching-text
+   file: ~/exercises/pom.xml
+   text: "spring-data-jdbc"
+   before: 3
+   after: 1
+   ```
 
 ```xml
 <dependency>
