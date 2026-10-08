@@ -1,7 +1,7 @@
 apiVersion: training.educates.dev/v1beta1
 kind: TrainingPortal
 metadata:
-  name: spring-academy
+  name: spring-upgrade-35-41
 spec:
   portal:
     registration:
