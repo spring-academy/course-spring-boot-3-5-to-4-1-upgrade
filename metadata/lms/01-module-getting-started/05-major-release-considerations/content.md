@@ -4,15 +4,14 @@ Because this upgrade crosses a `major` release boundary it is important to take 
 
 As a best practice we should review any upgrade guides or blogs looking for deprecations or big API changes that will impact us and update our code as recommended.
 
-- [Upgrading Spring Boot 3.5 to 4.0](https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-4.0-Migration-Guide)
 - [Spring Boot 4.0 Migration Guide](https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-4.0-Migration-Guide)
 - [Spring Security Migration to 7.0 Guide](https://docs.spring.io/spring-security/reference/6.5/migration-7/index.html)
 
 Based on what we learn we need to make the recommended changes/updates:
 
 1. Review release notes and blogs
-1. Update code as recommended
-1. Ensure we still have our application in a **K**nown **G**ood **S**tate
+2. Update code as recommended
+3. Ensure we still have our application in a **K**nown **G**ood **S**tate
 
 @@@alert
 {

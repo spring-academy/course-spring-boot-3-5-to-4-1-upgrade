@@ -3,9 +3,11 @@ modules:
   activate:
     - 00-overview
     - 01-run-the-tests
-    - 02-small-change
-    - 03-react
-    - 04-small-change-2
-    - 05-compile-and-assess-2
-    - 06-react-2
+    - 02-fix-test-rest-template
+    - 03-run-the-tests-again
+    - 04-fix-repository-autoconfig
+    - 05-verify-and-record
+    - 06-small-change-2
+    - 07-compile-and-assess-2
+    - 08-react-2
     - 99-summary

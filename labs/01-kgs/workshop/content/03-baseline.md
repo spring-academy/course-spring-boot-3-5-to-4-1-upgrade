@@ -18,13 +18,11 @@ Let's document our baseline, so we can refer back to it and track out progress.
    ## Initial baseline
 
    - Code compiled successfully
-     - errors
-     - Deprecation warnings
-       -  src/main/java/example/cashcard/SecurityConfig.java uses or overrides a deprecated API.
+      - errors
+      - Deprecation warnings
+         -  src/main/java/example/cashcard/SecurityConfig.java uses or overrides a deprecated API.
    - found disabled/broken test - CashCardApplicationTests#shouldReturnACashCardWhenDataIsSaved
-       - fixed broken test and re-enabled
-
-   _Result:_ code compiles without errors or warnings and all tests pass
+      - fixed broken test and re-enabled
    ```
 
 3. Commit all changes, including the new `upgrade-notes.md` file.
