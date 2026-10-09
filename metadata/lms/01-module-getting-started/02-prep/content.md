@@ -29,8 +29,8 @@ Spring Boot 4 is also a good reminder that major releases aren't just about remo
 
 With that in mind we recommended you perform some extra due diligence during `major` upgrades. For this upgrade that means reviewing the following in addition to the normal release notes.
 
-- [Upgrading Spring Boot 3.5 to 4.0](https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-4.0-Migration-Guide)
+- [Upgrading Spring Boot 3.5 to 4.0](https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-4.0-Release-Notes#upgrading-from-spring-boot-35)
 - [Spring Boot 4.0 Migration Guide](https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-4.0-Migration-Guide)
-- [Spring Security Migration to 7.0 Guide](https://docs.spring.io/spring-security/reference/6.5/migration-7/index.html)
+- [Spring Security Preparing for 7.0 Guide](https://docs.spring.io/spring-security/reference/6.5/migration-7/index.html)
 
 As part of the next step in the upgrade process -- "Assess" -- we are going to execute some `preparatory` changes to our code to ensure it is ready for the leap of a `major` release upgrade. Doing that will pay huge dividends as we perform the upgrade.
