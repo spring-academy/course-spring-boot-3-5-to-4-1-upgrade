@@ -8,7 +8,7 @@ Open the file and add this new section:
 file: ~/exercises/upgrade-notes.md
 ```
 
-```markdown
+````markdown
 ## Address deprecated Spring Properties
 
 - Added the `spring-boot-properties-migrator` dependency (runtime scope, dev-only) and ran `./mvnw spring-boot:run`
@@ -21,4 +21,4 @@ file: ~/exercises/upgrade-notes.md
   		Replacement: spring.web.resources.cache.period
   ```
   - Without the migrator, this property is silently ignored on Boot 4 - the app starts up with no error or warning, and the static resource cache-control header just quietly doesn't get set the way we intended
-```
+````

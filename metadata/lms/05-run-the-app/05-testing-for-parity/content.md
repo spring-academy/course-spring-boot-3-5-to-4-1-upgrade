@@ -30,8 +30,7 @@ If you're unfamiliar with these concepts and would like to learn more
 
 @@@alert
 {
-"text": "#### Key Takeaway \n
-Parity and Performance testing are essential to establishing confidence in both you and your customer's minds in the upgraded application.",
+"text": "#### Key Takeaway \n Parity and Performance testing are essential to establishing confidence in both you and your customer's minds in the upgraded application.",
 "type": "info"
 }
 @@@

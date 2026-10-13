@@ -36,7 +36,7 @@ This is exactly the API the compiler warned us about. `AntPathRequestMatcher` (a
 
 The replacement is `PathPatternRequestMatcher`, which is built for Spring MVC's newer, more efficient `PathPattern`-based request matching.
 
-Reference: https://docs.spring.io/spring-security/reference/6.5/migration-7/web.html
+Reference: https://docs.spring.io/spring-security/reference/6.5/migration-7/web.html#use-path-pattern
 
 ### Update our notes
 
@@ -46,7 +46,7 @@ Add a new section, `Major Release Considerations`, to our `upgrade-notes.md` fil
 file: ~/exercises/upgrade-notes.md
 ```
 
-```markdown
+````markdown
 ## Major Release Considerations
 
 - Spring Boot 4.0 pairs with Spring Security 7.0, which **removes** `AntPathRequestMatcher` and `MvcRequestMatcher` outright in favor of `PathPatternRequestMatcher`
@@ -54,9 +54,9 @@ file: ~/exercises/upgrade-notes.md
   ```
   [WARNING] .../src/main/java/example/cashcard/SecurityConfig.java: org.springframework.security.web.util.matcher.AntPathRequestMatcher in org.springframework.security.web.util.matcher has been deprecated and marked for removal
   ```
-  - Reference: https://docs.spring.io/spring-security/reference/6.5/migration-7/web.html
+  - Reference: https://docs.spring.io/spring-security/reference/6.5/migration-7/web.html#use-path-pattern
 - Since this is a deprecation we can already see and fix *before* the major version jump, we're doing it now rather than discovering a hard compile error later
-```
+````
 
 ## **R**eact to the error output
 

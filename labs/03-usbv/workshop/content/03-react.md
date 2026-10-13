@@ -68,14 +68,12 @@ file: ~/exercises/upgrade-notes.md
 
 - Updated `spring-boot-starter-parent` from `3.5.16` to `4.1.0`
 - Code did **not** compile cleanly:
-  ```
   [ERROR] .../src/main/java/example/cashcard/CashCardApplication.java:[5,32] cannot find symbol
     symbol:   class ConfigurableBootstrapContext
     location: package org.springframework.boot
   [ERROR] .../src/main/java/example/cashcard/CashCardApplication.java:[6,32] cannot find symbol
     symbol:   class DefaultBootstrapContext
     location: package org.springframework.boot
-  ```
 - Spring Boot 4 moved `ConfigurableBootstrapContext` and `DefaultBootstrapContext` from `org.springframework.boot` to `org.springframework.boot.bootstrap` as part of its broader package modularization
 - Updated the two imports to the new package; no other code changes were needed
 - We are intentionally skipping test execution for now (`./mvnw clean compile` only) - testing gets its own dedicated set of lessons and labs later in this course

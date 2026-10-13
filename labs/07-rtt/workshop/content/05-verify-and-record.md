@@ -30,7 +30,7 @@
    file: ~/exercises/upgrade-notes.md
    ```
 
-   ```markdown
+   ````markdown
    ## Test - Initial Test Execution
 
    - Ran `./mvnw clean test` for the first time since the version bump
@@ -50,6 +50,6 @@
      - **Lesson: a clean compile tells you nothing about auto-configuration. Any raw, non-Boot-starter dependency is worth double-checking after a major Boot upgrade.**
 
    _Result:_ code compiles without errors or warnings and all tests pass
-   ```
+   ````
 
 That's the big one. Everything from here on is comparatively minor housekeeping.

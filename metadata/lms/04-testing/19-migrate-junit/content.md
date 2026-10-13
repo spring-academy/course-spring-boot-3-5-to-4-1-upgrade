@@ -10,15 +10,14 @@ If your application still has JUnit 3 or JUnit 4 tests, you were likely relying 
 
 @@@alert
 {
-"text": "#### Key Takeaway \n
-Spring Boot 4's `spring-boot-starter-test` (and its modular successors, like \`spring-boot-starter-webmvc-test\`) no longer bring in the JUnit Vintage engine by default. If you still have JUnit 3/4-style tests, they won't error out - they'll simply stop being discovered and run at all. This can be a dangerously silent way to lose test coverage during an upgrade.",
+"text": "#### Key Takeaway \n Spring Boot 4's `spring-boot-starter-test` (and its modular successors, like `spring-boot-starter-webmvc-test`) no longer bring in the JUnit Vintage engine by default. If you still have JUnit 3/4-style tests, they won't error out - they'll simply stop being discovered and run at all. This can be a dangerously silent way to lose test coverage during an upgrade.",
 "type": "warning"
 }
 @@@
 
 If you still need to run legacy JUnit 3/4 tests under Boot 4, you'll need to add `org.junit.vintage:junit-vintage-engine` as an explicit test-scoped dependency yourself. Spring Framework 7 has otherwise deprecated JUnit 4 support in favor of Jupiter + `SpringExtension`, so treat the Vintage engine as a temporary bridge, not a long-term solution - plan to actually migrate those tests.
 
-## What are some key changes when migrating JUnit 4 tests to JUnit 5?
+## Key changes when migrating JUnit 4 tests to JUnit 5/6?
 
 **Annotations:**
 
@@ -28,4 +27,4 @@ If you still need to run legacy JUnit 3/4 tests under Boot 4, you'll need to add
 - `@AfterClass` annotation is now `@AfterAll`
 - `@RunWith` annotation is now `@ExtendWith`
 
-Explore the [official JUnit 5 migration guide](https://junit.org/junit5/docs/current/user-guide/#migrating-from-junit4) if you have a legacy test suite to migrate.
+Explore the [official JUnit 4 migration guide](https://docs.junit.org/6.0.3/migrating-from-junit4.html) if you have a legacy test suite to migrate.

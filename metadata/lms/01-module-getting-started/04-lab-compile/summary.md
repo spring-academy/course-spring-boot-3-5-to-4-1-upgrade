@@ -1,1 +1,1 @@
-In this lab you'll make any necessary update to our Spring Boot 3.5 application so that it compiles and the tests pass. This will be our _known good state_ and the base from which we launch the upgrade to Spring Boot 4.1.
+In this lab you'll make any necessary updates to our Spring Boot 3.5 application so that it compiles and the tests pass. This will be our _known good state_ and the base from which we launch the upgrade to Spring Boot 4.1.

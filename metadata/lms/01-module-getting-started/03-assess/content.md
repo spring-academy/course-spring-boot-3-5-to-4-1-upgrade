@@ -30,7 +30,7 @@ What exactly does that mean?
 
     @@@alert
     {
-    "text": "This particular upgrade we are faced with an existing deprecation for Spring Security's \`AntPathRequestMatcher\`. Don't worry we will address it first as part of the \`Major Release Considerations\` lesson & lab.",
+    "text": "This particular upgrade we are faced with an existing deprecation for Spring Security's `AntPathRequestMatcher`. Don't worry we will address it first as part of the `Major Release Considerations` lesson & lab.",
     "type": "info"
     }
     @@@
@@ -47,8 +47,7 @@ What exactly does that mean?
 
 @@@alert
 {
-"text": "#### Key Takeaway \n
-If we don't start from a **K**nown **G**ood **S**tate we won't know if the failures, errors, or warnings we encounter are pre-existing, or related to changes made during the upgrade!",
+"text": "#### Key Takeaway \n If we don't start from a **K**nown **G**ood **S**tate we won't know if the failures, errors, or warnings we encounter are pre-existing, or related to changes made during the upgrade!",
 "type": "info"
 }
 @@@
