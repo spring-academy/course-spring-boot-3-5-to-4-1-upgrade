@@ -22,7 +22,7 @@ Now that we've commented-out `lombok`'s hard-coded version in our `pom.xml`, let
 
 1. **A**ssess the version change.
 
-   Run the `dependency:tree` goal again and note how the output changed.
+   Run the `dependency:tree` command again and note how the output changed.
 
    ```dashboard:open-dashboard
    name: Terminal

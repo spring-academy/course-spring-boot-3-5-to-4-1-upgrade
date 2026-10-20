@@ -2,7 +2,7 @@ In the last lab we found a hard-coded `spring-data-jdbc` version and removed it,
 
 ### Remove Dependency Versions
 
-Spring manages the dependency version for certain third-party libraries too -- not just Spring and Spring Boot projects themselves. If you notice an explicit version hard-coded for one of these libraries, it should be removed and left to the Spring Boot Starter Parent.
+Spring manages the dependency version for certain third-party libraries too, not just Spring and Spring Boot projects themselves. If you notice an explicit version hard-coded for one of these libraries, it should be removed and left to the Spring Boot Starter Parent.
 
 ### Use Maven Properties
 
@@ -16,7 +16,7 @@ The one caveat here is around overriding Spring-managed third-party dependency v
 
 You may, for instance, have become aware of a CVE affecting a Spring-managed third-party library. You may have also found that the maintainers of that library have issued a fix, but Spring has no knowledge of it yet.
 
-In this case, it's acceptable to override the version managed by the Spring Boot Parent, but you should follow the same rule as outlined for independent third-party libraries -- namely, manage that version through a Maven Property, not an inline hard-coded version.
+In this case, it's acceptable to override the version managed by the Spring Boot Parent, but you should follow the same rule as outlined for independent third-party libraries namely, manage that version through a Maven Property, not an inline hard-coded version.
 
 Let's get started and update our non-Spring dependencies!
 

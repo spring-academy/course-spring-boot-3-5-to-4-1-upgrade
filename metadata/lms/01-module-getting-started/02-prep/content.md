@@ -23,7 +23,7 @@ As is the case in most Spring Boot upgrades, Spring Security is of particular co
 
 ### Auto-Configuration Modularization
 
-Spring Boot 4 is also a good reminder that major releases aren't just about removed APIs. Boot 4 split the old, monolithic `spring-boot-autoconfigure` jar into many smaller, per-technology modules. A dependency that "just worked" under Boot 3 because it happened to ride along with the monolithic autoconfigure jar may need its dedicated Boot starter under Boot 4 -- and the compiler won't tell you if you miss one. We'll see a concrete example of this later in the course.
+Spring Boot 4 is also a good reminder that major releases aren't just about removed APIs. Spring Boot 4 split the old, monolithic `spring-boot-autoconfigure` jar into many smaller, per-technology modules. A dependency that "just worked" under Spring Boot 3 because it happened to ride along with the monolithic autoconfigure jar may need its dedicated Boot starter under Spring Boot 4 and the compiler won't tell you if you miss one. We'll see a concrete example of this later in the course.
 
 ### Review the Docs
 

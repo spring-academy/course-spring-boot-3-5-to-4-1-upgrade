@@ -1,4 +1,4 @@
-Now is a good time to do some housekeeping in the `pom.xml`: updating Spring dependencies.
+Now is a good time to do some housekeeping in the `pom.xml` by updating the relevant Spring dependencies.
 
 Each version of Spring Boot is very opinionated about the dependencies with which it's compatible.
 

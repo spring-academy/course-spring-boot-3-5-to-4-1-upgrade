@@ -1,0 +1,1 @@
+In this lesson, you learned that Spring Boot 4 modularized the framework, and that Spring Initializr now generates dependency coordinates matching the new modular starter names. The classic names still work as migration aids, but keeping your coordinates current avoids surprises later.

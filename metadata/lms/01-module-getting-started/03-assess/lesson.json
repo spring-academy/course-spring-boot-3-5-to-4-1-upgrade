@@ -10,7 +10,7 @@
     "links": [
       {
         "text": "Logging in Spring",
-        "url": "https://docs.spring.io/spring-boot/docs/3.5.16/reference/html/howto.html#howto.logging"
+        "url": "https://docs.spring.io/spring-boot/3.5/reference/features/logging.html"
       }
     ]
   }

@@ -1,4 +1,4 @@
-In this lesson, we'll look for - and address - places where dependency versions are set explicitly.
+In this lesson, we'll look for and address places where dependency versions are set explicitly.
 
 As a best practice, it's important to keep your Spring and Spring Boot dependencies in sync. The Spring Boot Parent and Spring Boot Dependencies BOM are designed to ensure that all the Spring and Spring Boot libraries will interoperate compatibly.
 

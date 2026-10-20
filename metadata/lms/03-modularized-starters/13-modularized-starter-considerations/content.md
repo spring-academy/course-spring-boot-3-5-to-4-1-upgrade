@@ -1,4 +1,4 @@
-Spring Boot 4 didn't just bump version numbers - it modularized the framework itself. The old, monolithic `spring-boot-autoconfigure` jar has been split into many smaller, per-technology modules, and Spring Initializr now generates dependency coordinates that match this new modular structure.
+Spring Boot 4 didn't just bump version numbers, it modularized the framework itself. The old, monolithic `spring-boot-autoconfigure` jar has been split into many smaller, per-technology modules, and Spring Initializr now generates dependency coordinates that match this new modular structure.
 
 ## What changed
 
@@ -7,7 +7,7 @@ Two of our dependencies have modern replacement names under Spring Boot 4:
 - `spring-boot-starter-web` -> `spring-boot-starter-webmvc`
 - `spring-boot-starter-test` -> `spring-boot-starter-webmvc-test`
 
-The classic names still exist in Spring Boot 4 as migration aids, and they'll continue to compile just fine. This isn't a "fix a break" lesson like some of our earlier modules - it's about keeping your dependency coordinates current with what a fresh Spring Initializr project would generate today.
+The classic names still exist in Spring Boot 4 as migration aids, and they'll continue to compile just fine. This isn't a "fix a break" lesson like some of our earlier modules, it's about keeping your dependency coordinates current with what a fresh Spring Initializr project would generate today.
 
 ## Update
 

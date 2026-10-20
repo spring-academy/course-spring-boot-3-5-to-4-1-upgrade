@@ -9,8 +9,6 @@
     "manualCompletion": true,
     "links": [
       {
-        "text": "Logging in Spring",
-        "url": "https://docs.spring.io/spring-boot/docs/3.5.16/reference/html/howto.html#howto.logging"
       }
     ]
   }
