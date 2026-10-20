@@ -1,4 +1,4 @@
-Let's run through a **SCAR** pass to see - and understand - the deprecation for ourselves.
+Let's run through a **SCAR** pass to see and understand the deprecation for ourselves.
 
 ## **C**ompile the code
 

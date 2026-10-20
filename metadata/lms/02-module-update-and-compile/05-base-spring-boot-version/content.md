@@ -69,7 +69,7 @@ If you're using `spring-boot-dependencies` BOM:
 
 ### Pro tip: properties
 
-If you do need to manually set the Spring Boot version, we highly recommend using properties to keep your discrete versions in one place. Then, reference those properties in the dependency. This avoids the error-prone overhead of searching everyone in your `pom` for hard-coded versions.
+If you do need to manually set the Spring Boot version, we highly recommend using properties to keep your discrete versions in one place. Then, reference those properties in the dependency. This avoids the error-prone overhead of searching every dependency in your `pom` for hard-coded versions.
 
 #### Properties in Maven projects
 

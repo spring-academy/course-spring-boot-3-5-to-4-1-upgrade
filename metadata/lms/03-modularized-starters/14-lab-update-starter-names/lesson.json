@@ -1,6 +1,6 @@
 {
-  "id": "spring-boot-3-5-to-4-1-upgrade-spring-security-spring-security-update-version",
-  "slug": "spring-boot-3-5-to-4-1-upgrade-spring-security-spring-security-update-version",
+  "id": "spring-boot-3-5-to-4-1-upgrade-modularized-starters-update-starter-names",
+  "slug": "spring-boot-3-5-to-4-1-upgrade-modularized-starters-update-starter-names",
   "title": "Lab: Update Spring Boot starter names",
   "status": "live",
   "type": "lab",

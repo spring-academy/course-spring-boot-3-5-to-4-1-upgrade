@@ -1,4 +1,4 @@
-When we upgrade an application to a new version of Spring Boot, we change its dependencies and code so that it's based on the new version. This requires modification of the application dependencies, including Spring Boot, Spring, and third party libraries.
+When we upgrade an application to a new version of Spring Boot, we change its dependencies and code so that it's based on the new version. This requires modification of the application dependencies, including Spring Boot, Spring, and any third party libraries.
 
 ## Basic upgrade process
 

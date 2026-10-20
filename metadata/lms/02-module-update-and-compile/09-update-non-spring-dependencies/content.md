@@ -72,11 +72,11 @@ The following steps should be performed iteratively for the dependencies, using 
 
 We've talked quite a bit about how dependency versions should usually be managed by Parent POM(s) or transitive dependencies.
 
-However, what if we want - or need - to know specifically what's managing the dependency? This is where viewing the **dependency tree** is very helpful.
+However, what if we want or need to know specifically what's managing the dependency? This is where viewing the **dependency tree** is very helpful.
 
 **Note:** We'll use Maven as an example. If you're using Gradle, the command is `./gradlew app:dependencies`.
 
-Maven provides a `dependency:tree` command that allows you to see what version is being loaded for your Maven project. See [Dependency Tree Documentation](https://maven.apache.org/plugins/maven-dependency-plugin/tree-mojo.html) for details on the `mojo`.
+Maven provides a `dependency:tree` command that allows you to see what version is being loaded for your Maven project. See [Dependency Tree Documentation](https://maven.apache.org/plugins/maven-dependency-plugin/tree-mojo.html) for details on the `maven-dependency-plugin`.
 
 ```shell
 $ ./mvnw dependency:tree

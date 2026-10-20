@@ -4,7 +4,7 @@ Congratulations! You now have the knowledge, skills, and hands-on experience to 
 
 - You learned how to clean up your build file and dependency management.
 - You learned what to look for to deal with framework evolution over time.
-- You dealt specifically with major breaking changes in a core component, like Spring Security.
+- You dealt with major breaking changes in a core component, Spring Security, and updated your dependency coordinates to Spring Boot 4's modularized starter names.
 - You learned about Spring Boot 4's modularized auto-configuration, and why a clean compile doesn't guarantee a working application.
 - You learned the **SCAR** method to systematically and logically work through all the upgrade tasks mentioned above.
 - You upgraded a real application from Spring Boot 3.5 to 4.1!

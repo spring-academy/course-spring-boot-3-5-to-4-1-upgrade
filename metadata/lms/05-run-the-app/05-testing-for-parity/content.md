@@ -1,4 +1,4 @@
-Your application compiles now, based on the upgraded version of Spring Boot. All tests are passing! It bootstraps and runs without ab-ending or generating warnings or errors.
+Your application compiles now, based on the upgraded version of Spring Boot. All tests are passing! It bootstraps and runs without abending or generating warnings or errors.
 
 But, just because the application compiles and locally-run tests pass, does this mean the application actually works _exactly_ the same way that it did before the upgrade? Does it perform _as well_ or _better_ than it did before the upgrade?
 
@@ -19,14 +19,9 @@ Our recommended approach would be as follows:
 
 ## Validate Performance
 
-Now that we've ensured that the application is behaving functionally, as expected, it's time to ensure that it's performing as well - or better - than before the upgrade.
+Now that we've ensured that the application is behaving functionally, as expected, it's time to ensure that it's performing as well or better than before the upgrade.
 
 If you have a suite of performance test(s), now's the time to execute them. If you don't, we'd recommend engaging in some form of manual performance and/or load testing. We'd recommend using something like [JMeter](https://jmeter.apache.org/), a Java application designed to load test functional behavior and measure performance.
-
-If you're unfamiliar with these concepts and would like to learn more
-
-- [Site Reliability Engineering](https://sre.google/)
-- [Load Testing](https://www.geeksforgeeks.org/software-testing-load-testing/)
 
 @@@alert
 {
@@ -34,3 +29,8 @@ If you're unfamiliar with these concepts and would like to learn more
 "type": "info"
 }
 @@@
+
+If you're unfamiliar with these concepts and would like to learn more
+
+- [Site Reliability Engineering](https://sre.google/)
+- [Load Testing](https://www.geeksforgeeks.org/software-testing-load-testing/)

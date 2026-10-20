@@ -20,8 +20,7 @@
 
 You should be familiar with the following before pursuing this Course:
 
-- Experience developing applications with Java
-- Familiarity with one or more of these Java versions (17)
+- Experience with Java and developing applications with Java
 - A working knowledge of Maven
 - A working knowledge of Git
 - A working knowledge of Spring Security 6.5

@@ -23,18 +23,10 @@ As a best practice, we should start the upgrade from a known "good" state _(KGS)
 What exactly does that mean?
 
 - The code compiles
-- All tests are passing
+- All tests pass
 - The application runs, and the feature functionality is working as expected
 - You have no warning or error messages during compilation or at runtime
   - An exception would be warnings or errors related to deprecations that will be addressed during the upgrade*
-
-    @@@alert
-    {
-    "text": "This particular upgrade we are faced with an existing deprecation for Spring Security's `AntPathRequestMatcher`. Don't worry we will address it first as part of the `Major Release Considerations` lesson & lab.",
-    "type": "info"
-    }
-    @@@
-
 
 @@@alert
 {
@@ -68,7 +60,7 @@ Now that we have a KGS, let's document our baseline. What's a baseline?
 > - Something, such as a set of data, is used as a basis for comparison or as a control in a study.
 > - A starting point.
 
-We recommend documenting the current state in writing, and in source control. Note that we won't be making actual source control commits during lab(s). The following are the steps we recommend that you take when working in your operating environment on your application source.
+We recommend documenting the current state in writing, and in source control. Note that we won't be making actual source control commits during the labs. The following are the steps we recommend that you take when working in your operating environment on your application source.
 
 1. If you made changes to establish your KGS, commit them to your source control.
 2. Create a new branch based on your current commit.
