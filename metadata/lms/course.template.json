@@ -6,7 +6,7 @@
   "order": 450,
   "level": "intermediate",
   "topics": ["java", "testing", "intermediate", "modernization", "upgrade"],
-  "entitlements": ["pro"],
+  "entitlements": ["auth"],
   "instructors": ["spring-jonathan-newell", "spring-dan-frey", "spring-paul-wiggett"],
   "settings": {
     "thumbnail": "https://raw.githubusercontent.com/spring-academy/spring-academy-assets/main/courses/course-spring-boot-3-5-to-4-1-upgrade/course-thumbnail-large.svg",
